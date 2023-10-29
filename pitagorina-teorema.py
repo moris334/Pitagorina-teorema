@@ -2,8 +2,8 @@
 #kk znači kvadratni koren
 import math
 def ptrougao():
-    a = int(input("Unesi stranicu a: "))
-    b = int(input("Unesi stranicu b: "))
+    a = float(input("Unesi stranicu u cm a: "))
+    b = float(input("Unesi stranicu u cm b: "))
     a *= a
     b *= b
     c = a+b
@@ -15,8 +15,8 @@ def ptrougao():
     print("C kvadrirano ", c, " ,C ", c_kk," ,obim ",obim," i povrsina ",povrsina)
 
 def pravugaonik():
-    a = int(input("Unesi stranicu a: "))
-    b = int(input("Unesi stranicu b: "))
+    a = float(input("Unesi stranicu u cm a: "))
+    b = float(input("Unesi stranicu u cm b: "))
     a *= a
     b *= b
     c = a+b
@@ -29,7 +29,7 @@ def pravugaonik():
     
 
 def kvadrat():
-    a = int(input("Unesi stranicu a: "))
+    a = float(input("Unesi stranicu u cm a: "))
     a *= a
     c = a*2
     c_kk = math.sqrt(2*(a*a))
@@ -39,14 +39,15 @@ def kvadrat():
     print("D kvadrirano ", c, " ,D ", c_kk," ,obim ",obim," i povrsina ",povrsina)
 
 def jedkrak():
-    a = int(input("Unesi stranicu a: "))
-    ha = int(input("Unesi visinu ha: "))
+    a = float(input("Unesi stranicu u cm a: "))
+    ha = float(input("Unesi visinu u cm ha: "))
     a /= 2
     a *= a
     ha *= ha
     c = a+ha
     c_kk = math.sqrt(c)
     a_kk = math.sqrt(a)
+    a_kk *= 2
     ha_kk = math.sqrt(ha)
     obim = a_kk + (2*c_kk)
     povrsina =(a_kk*ha_kk)/2
