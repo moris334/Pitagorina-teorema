@@ -1,3 +1,5 @@
+# Update
+Sutra update.
 # Pitagorina-teorema
 Update-i u budućnosti.
 Ako sam nešto pogrešio recimi.
